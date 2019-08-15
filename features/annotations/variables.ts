@@ -8,4 +8,28 @@ let speed: string = 'fast'; // speed = 10 does not work
 
 let nothingMuch: null = null;
 
+// Build in objects
 let now: Date = new Date();
+
+// Array
+let colors: string[] = ['red', 'green', 'blue'];
+let myNumbers: number[] = [1, 2, 3, 4];
+let boolenas: boolean[] = [true, false];
+
+// Classess
+
+class Car {}
+
+let car: Car = new Car();
+
+// Object literals
+let point: { x: number; y: number } = {
+    x: 10,
+    y: 20
+};
+
+// Function
+
+const logNumber: (i: number) => void = (i: number) => {
+    console.log(i);
+};
