@@ -8,6 +8,8 @@ export class Company {
         lng: number;
     };
 
+    color: string = 'red';
+
     constructor() {
         this.companyName = faker.company.companyName();
         this.catchPhrase = faker.company.catchPhrase();
