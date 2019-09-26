@@ -1,3 +1,4 @@
 node_modules/
 mapsApp/.cache
 mapsApp/dist
+.cache
