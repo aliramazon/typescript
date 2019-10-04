@@ -1,4 +1,7 @@
+dist/
 node_modules/
 mapsApp/.cache
 mapsApp/dist
+sortApp/node_modules
+sortApp/build/*
 .cache
