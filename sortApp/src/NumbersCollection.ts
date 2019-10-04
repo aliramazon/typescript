@@ -1,5 +1,9 @@
-export class NumbersCollection {
-    constructor(public data: number[]) {}
+import { Sorter } from './Sorter';
+
+export class NumbersCollection extends Sorter {
+    constructor(public data: number[]) {
+        super();
+    }
 
     get length(): number {
         return this.data.length;
@@ -10,6 +14,9 @@ export class NumbersCollection {
     }
 
     swap(leftIdx: number, rightIdx: number): void {
-        [this.data[leftIdx], this.data[rightIdx]] = [this.data[rightIdx], this.data[leftIdx]];
+        [this.data[leftIdx], this.data[rightIdx]] = [
+            this.data[rightIdx],
+            this.data[leftIdx],
+        ];
     }
 }
