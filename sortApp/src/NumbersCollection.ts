@@ -5,7 +5,7 @@ export class NumbersCollection {
         return this.data.length;
     }
 
-    compary(leftIdx: number, rightIdx: number): boolean {
+    compare(leftIdx: number, rightIdx: number): boolean {
         return this.data[leftIdx] > this.data[rightIdx];
     }
 

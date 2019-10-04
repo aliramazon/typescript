@@ -11,7 +11,7 @@ var NumbersCollection = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
-    NumbersCollection.prototype.compary = function (leftIdx, rightIdx) {
+    NumbersCollection.prototype.compare = function (leftIdx, rightIdx) {
         return this.data[leftIdx] > this.data[rightIdx];
     };
     NumbersCollection.prototype.swap = function (leftIdx, rightIdx) {

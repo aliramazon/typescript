@@ -2,7 +2,7 @@ import { NumbersCollection } from './NumbersCollection';
 
 interface Sortable {
     length: number;
-    compary(i: number, j: number): boolean;
+    compare(i: number, j: number): boolean;
     swap(i: number, j: number): void;
 }
 export class Sorter {
@@ -13,7 +13,7 @@ export class Sorter {
 
         for (let i = 0; i < length; i++) {
             for (let j = 0; j < length - i - 1; j++) {
-                if (this.collection.compary(j, j + 1)) {
+                if (this.collection.compare(j, j + 1)) {
                     this.collection.swap(j, j + 1);
                 }
             }
