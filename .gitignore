@@ -5,3 +5,5 @@ mapsApp/dist
 sortApp/node_modules
 sortApp/build/*
 .cache
+statsApp/node_modules
+statsApp/build/*
